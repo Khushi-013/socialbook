@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8e91852cdf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav-left"></div>
+        <img src="https://socialbook.io/help/content/images/2020/04/SoicalBook_logo_2020Mar@1x.png" class="logo">
+<img src="https://img.icons8.com/ios-filled/512/appointment-reminders--v2.png" class="notification">
+<img src="https://img.icons8.com/external-anggara-glyph-anggara-putra/512/external-inbox-home-screen-anggara-glyph-anggara-putra-2.png" class="inbox">
+<img src="https://img.icons8.com/ios-glyphs/512/live-video-on--v2.png" class="video">
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="https://img.icons8.com/ios-filled/512/search--v3.png" class="search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="https://w7.pngwing.com/pngs/263/482/png-transparent-butterfly-butterfly-yellow-brush-footed-butterfly-symmetry-morpho.png">
+            </div>
+        </div>
+            <div class="nav-user-icon">
+                <img src="https://w7.pngwing.com/pngs/263/482/png-transparent-butterfly-butterfly-yellow-brush-footed-butterfly-symmetry-morpho.png">
+            </div>
+        <!--Settings-Menu-->
+        <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="https://w7.pngwing.com/pngs/263/482/png-transparent-butterfly-butterfly-yellow-brush-footed-butterfly-symmetry-morpho.png">
+                    <div>
+                        <p>Khushi Sinha</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="https://img.icons8.com/external-fauzidea-detailed-outline-fauzidea/512/external-feedback-online-learning-fauzidea-detailed-outline-fauzidea.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="https://img.icons8.com/sf-black/512/settings--v2.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="https://img.icons8.com/external-phatplus-solid-phatplus/512/external-right-arrow-essential-phatplus-solid-phatplus.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="https://img.icons8.com/external-tal-revivo-bold-tal-revivo/512/external-help-and-support-for-database-network-system-database-bold-tal-revivo.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="https://img.icons8.com/external-phatplus-solid-phatplus/512/external-right-arrow-essential-phatplus-solid-phatplus.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="https://img.icons8.com/ios-filled/512/accessibility-tools.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="https://img.icons8.com/external-phatplus-solid-phatplus/512/external-right-arrow-essential-phatplus-solid-phatplus.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="https://img.icons8.com/ios-glyphs/512/logout-rounded-down.png" class="settings-icon">
+                    <a href="#">Logout <img src="https://img.icons8.com/external-phatplus-solid-phatplus/512/external-right-arrow-essential-phatplus-solid-phatplus.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+        <div class="container">
+            <!-------left-sidebar-------->
+            <div class="left-sidebar">
+            <div class="implinks">
+                <a href="#"><img src="https://img.icons8.com/ios-filled/512/news.png">Latest News</a>
+                <a href="#"><img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/512/external-friends-user-tanah-basah-glyph-tanah-basah.png">Friends</a>
+                <a href="#"><img src="https://img.icons8.com/ios-filled/512/groups.png">Groups</a>
+                <a href="#"><img src="https://img.icons8.com/external-obvious-glyph-kerismaker/512/external-cart-ecommerce-glyph-obvious-glyph-kerismaker-2.png">Market Place</a>
+                <a href="#"><img src="https://img.icons8.com/external-bearicons-glyph-bearicons/512/external-watch-call-to-action-bearicons-glyph-bearicons.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut-links">
+            <p>Your Shortcuts</p>
+            <a href="#"><img src="https://cdn.pixabay.com/photo/2019/10/09/07/28/development-4536630_1280.png">Web Developers</a><br>
+            <a href="#"><img src="https://www.slaconsultantsindia.com/wp_files/wp-content/uploads/2018/08/Web-Designing-Training-Course-Become-an-Expert-of-the-Web-Designing.jpg">Web Design Course</a><br>
+            <a href="#"><img src="https://images.yourstory.com/cs/1/6b460cd040d711e994bbefffe3577d8b/full-stack-web-development-1586433444650.png">Full Stack Web Developmnent</a><br>
+            <a href="#"><img src="http://www.fiftyfiveandfive.com/wp-content/uploads/2021/02/The_4_pillars_of_a_quality_website-1.png">Website Experts</a><br>
+            </div>
+            </div>
+            <!------main-content------->
+            <div class="main-content">
+                <div class="story-gallery">
+                    <div class="story story1">
+                        <img src="https://findicons.com/files/icons/1014/ivista/256/plus.png">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story2">
+                        <img src="https://nettv4u.com/imagine/h/i/n/d/i/0/hindi-actress-madhuri-dixit-hot-photo-shoot-images-1.jpg">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Aishwarya_Rai_at_an_event_for_Raavan_%28cropped%29.jpg">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story4">
+                        <img src="https://www.filmibeat.com/img/popcorn/profile_photos/alia-bhatt-20180813151330-25336.jpg">
+                        <p>Post Story</p>
+                    </div>
+            </div>
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="https://w7.pngwing.com/pngs/263/482/png-transparent-butterfly-butterfly-yellow-brush-footed-butterfly-symmetry-morpho.png">
+                    <div>
+                        <p>Khushi Sinha</p>
+                        <small>Public<i class="fa-solid fa-square-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind Khushi ?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="https://img.icons8.com/ios-glyphs/512/live-video-on.png">Live Video</a>
+                        <a href="#"><img src="https://img.icons8.com/fluency-systems-filled/512/photo-video.png">Photo/Video</a>
+                        <a href="#"><img src="https://img.icons8.com/ios-filled/512/happy.png">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="https://w7.pngwing.com/pngs/263/482/png-transparent-butterfly-butterfly-yellow-brush-footed-butterfly-symmetry-morpho.png">
+                        <div>
+                            <p>Khushi Sinha</p>
+                            <span>December 19 2022,09:32pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                        <p class="post-text">To learn coding languages like C,C++,C#,Java,Python & Web Development follow my youtube channel ....
+                        <a href="#">Saadhana Tutorials</a></p>
+                        <img src="https://www.shutterstock.com/image-photo/this-photo-inside-pink-rose-600w-1673105236.jpg" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="https://img.icons8.com/ios-filled/512/facebook-like.png">120</div>
+                                <div><img src="https://img.icons8.com/ios/512/comments.png">45</div>
+                                <div><img src="https://img.icons8.com/external-anggara-basic-outline-anggara-putra/512/external-share-social-media-interface-anggara-basic-outline-anggara-putra-3.png">20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Janhvi_Kapoor_%28cropped%29.jpg/220px-Janhvi_Kapoor_%28cropped%29.jpg"><i class="fa-solid fa-square-down"></i>
+                            </div>
+                        </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="https://w7.pngwing.com/pngs/263/482/png-transparent-butterfly-butterfly-yellow-brush-footed-butterfly-symmetry-morpho.png">
+                        <div>
+                            <p>Khushi Sinha</p>
+                            <span>December 19 2022,09:32pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                        <p class="post-text">ME WITH MY FAMILY</p>
+                        <img src="images\ME.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="https://img.icons8.com/ios-filled/512/facebook-like.png">120</div>
+                                <div><img src="https://img.icons8.com/ios/512/comments.png">45</div>
+                                <div><img src="https://img.icons8.com/external-anggara-basic-outline-anggara-putra/512/external-share-social-media-interface-anggara-basic-outline-anggara-putra-3.png">20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Janhvi_Kapoor_%28cropped%29.jpg/220px-Janhvi_Kapoor_%28cropped%29.jpg"><i class="fa-solid fa-square-down"></i>
+                            </div>
+                        </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="https://w7.pngwing.com/pngs/263/482/png-transparent-butterfly-butterfly-yellow-brush-footed-butterfly-symmetry-morpho.png">
+                        <div>
+                            <p>Khushi Sinha</p>
+                            <span>December 19 2022,09:32pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                        <p class="post-text">MAMA-MAMI</p>
+                        <img src="images\Mama.png" class="post-img">
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="https://img.icons8.com/ios-filled/512/facebook-like.png">1K</div>
+                                <div><img src="https://img.icons8.com/ios/512/comments.png">1000</div>
+                                <div><img src="https://img.icons8.com/external-anggara-basic-outline-anggara-putra/512/external-share-social-media-interface-anggara-basic-outline-anggara-putra-3.png">50</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Janhvi_Kapoor_%28cropped%29.jpg/220px-Janhvi_Kapoor_%28cropped%29.jpg"><i class="fa-solid fa-square-down"></i>
+                            </div>
+                        </div>
+            </div>
+            <button type="button" class="load-more-btn">Load More</button>
+            </div>
+            <!------right-sidebar------>
+            <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>19</h3>
+                    <span>December</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Boisar</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>13</h3>
+                    <span>August</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Vasai</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisements</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="https://w7.pngwing.com/pngs/1/154/png-transparent-meeting-businessperson-coworking-business-meeting-business-woman-furniture-business-vector.png" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="https://nettv4u.com/imagine/h/i/n/d/i/0/hindi-actress-madhuri-dixit-hot-photo-shoot-images-1.jpg">
+                </div>
+                <p>Madhuri Dixit</p>
+                <div class="online">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Aishwarya_Rai_at_an_event_for_Raavan_%28cropped%29.jpg">
+                </div><br>
+                <p>Aiswarya Rai</p>
+                <div class="online">
+                    <img src="https://www.filmibeat.com/img/popcorn/profile_photos/alia-bhatt-20180813151330-25336.jpg">
+                </div>
+                <p>Alia Bhatt</p>
+            </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright 2022 Khushi Sinha</p>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
